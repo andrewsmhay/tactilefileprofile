@@ -1,8 +1,5 @@
-# filecount.rb
+# tfp.rb
 
-Filecount is a simple script to:
-<ul>
-<li>Recursively search through the filesystem</li>
-<li>Count the number of files, and</li>
-<li>Display the filename with the total count</li>
-</ul>
+The Tactile File Profiler (TFP) script is used to quickly analyze a file system to help identify file locations, permissions, and ownership.
+
+WARNING - IT'S HORRIBLY BROKEN RIGHT NOW
