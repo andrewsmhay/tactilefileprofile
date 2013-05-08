@@ -41,8 +41,8 @@ if os_decided == "nix"
 		pacl_pre = File.stat(pelement.chomp).mode.to_s(8)
 		pacl_array << pacl_pre.split(//)
 		pacl = "#{pacl_array.last[-3..-1].join}"
-		puts "#{pelement.chomp!}|File|Y|#{pacl}|#{pfuser}|#{pfgroup}|#{pfsuid}|#{pfsgid}|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL"
-	end
+	puts "#{pelement.chomp!}|File||Y|#{pacl}|#{pfuser}|#{pfgroup}|#{pfsuid}|#{pfsgid}|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL"
+  end
 	if (File.exist?(pelement.chomp) && File.directory?(pelement.chomp))
 		if File.stat(pelement.chomp).setuid?
                         pfsuid2 = "Y"
@@ -62,9 +62,8 @@ if os_decided == "nix"
 		pdacl_pre = File.stat(pelement.chomp).mode.to_s(8)
                 pdacl_array << pdacl_pre.split(//)
                 pdacl = "#{pdacl_array.last[-3..-1].join}"
-		#pdacl = "#{pdacl_array.last[-3]}#{pdacl_array.last[-2]}#{pdacl_array.last[-1]}"
-		puts "#{pelement.chomp!}|Directory|N|NULL|NULL|NULL|NULL|NULL|#{pdacl}|#{pfsuid2}|#{pfsgid2}|#{pwwd}|NULL|NULL|NULL|NULL|NULL|NULL"
-	end
+    puts "#{pelement.chomp!}|Directory||N|NULL|NULL|NULL|NULL|NULL|#{pdacl}|#{pfsuid2}|#{pfsgid2}|#{pwwd}|NULL|NULL|NULL|NULL|NULL|NULL"
+  end
     end
 # If the operating system is a Windows system
 end
