@@ -15,17 +15,24 @@ Where `<file1>` is the package manager output file and `<file2>` is the applicat
 
 e.g.
 <pre><code># ruby tfp wordpress.out wordpress.post
-Element|Element Type|Description|File Presence|File ACL|File User Ownership|File Group Ownership|File setuid|File setgid|Directory ACL|Directory User Ownership|Directory Group Ownership|World-Writable Directories Have Sticky Bit Set|Process Presence|Process User Ownership|Process Group Ownership|Group Members|Network Service Accessibility|Network Service Processes|
-/etc/wordpress/htaccess|File|Y|644|0|0|N|N|NULL|NULL|NULL|NULL|NULL|NULL|NULLNULL|NULL|NULL
-/etc/wordpress/wp-config.php|File|Y|644|0|0|N|N|NULL|NULL|NULL|NULL|NULL|NULL|NULLNULL|NULL|NULL
-/usr/share/doc/wordpress/changelog.Debian.gz|File|Y|644|0|0|N|N|NULL|NULL|NULL|NULL|NULL|NULL|NULLNULL|NULL|NULL
-/usr/share/doc/wordpress/copyright|File|Y|644|0|0|N|N|NULL|NULL|NULL|NULL|NULL|NULL|NULLNULL|NULL|NULL
-/usr/share/doc/wordpress/examples/apache.conf|File|Y|644|0|0|N|N|NULL|NULL|NULL|NULL|NULL|NULL|NULLNULL|NULL|NULL
-/usr/share/doc/wordpress/examples/setup-mysql|File|Y|644|0|0|N|N|NULL|NULL|NULL|NULL|NULL|NULL|NULLNULL|NULL|NULL
+Active?|Element|Element Type|Description|File Presence|File ACL|File User Ownership|File Group Ownership|File setuid|File setgid|Directory ACL|Directory User Ownership|Directory Group Ownership|World-Writable Directories Have Sticky Bit Set|Process Presence|Process User Ownership|Process Group Ownership|Group Members|Network Service Accessibility|Network Service Processes|
+Y|/etc/wordpress/htaccess|File||Y|644|0|0|N|N|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL
+Y|/etc/wordpress/wp-config.php|File||Y|644|0|0|N|N|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL
+Y|/usr/share/doc/wordpress/changelog.Debian.gz|File||Y|644|0|0|N|N|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL
+Y|/usr/share/doc/wordpress/copyright|File||Y|644|0|0|N|N|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL
+Y|/usr/share/doc/wordpress/examples/apache.conf|File||Y|644|0|0|N|N|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL
+Y|/usr/share/doc/wordpress/examples/setup-mysql|File||Y|644|0|0|N|N|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL
 ...
-/usr/share/wordpress/wp-includes/Text/Diff|Directory|N|NULL|NULL|NULL|NULL|NULL|755|N|N|N|NULL|NULL|NULL|NULL|NULL|NULL
-/usr/share/wordpress/wp-includes/Text/Diff/Engine|Directory|N|NULL|NULL|NULL|NULL|NULL|755|N|N|N|NULL|NULL|NULL|NULL|NULL|NULL
-/usr/share/wordpress/wp-includes/Text/Diff/Renderer|Directory|N|NULL|NULL|NULL|NULL|NULL|755|N|N|N|NULL|NULL|NULL|NULL|NULL|NULL
+Y|/usr/share/wordpress/wp-admin/images/menu-arrow-frame.png|File||Y|644|0|0|N|N|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL
+Y|/usr/share/wordpress/wp-admin/images/menu-arrow-frame-rtl.png|File||Y|644|0|0|N|N|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL
+Y|/usr/share/wordpress/wp-admin/images/menu-arrows.gif|File||Y|644|0|0|N|N|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL
+Y|/usr/share/wordpress/wp-admin/images/menu-bits.gif|File||Y|644|0|0|N|N|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL
+Y|/usr/share/wordpress/wp-admin/images/menu-bits-rtl.gif|File||Y|644|0|0|N|N|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL
+...
+Y|/usr/share/wordpress/wp-includes/Text|Directory||N|NULL|NULL|NULL|NULL|NULL|755|N|N|N|NULL|NULL|NULL|NULL|NULL|NULL
+Y|/usr/share/wordpress/wp-includes/Text/Diff|Directory||N|NULL|NULL|NULL|NULL|NULL|755|N|N|N|NULL|NULL|NULL|NULL|NULL|NULL
+Y|/usr/share/wordpress/wp-includes/Text/Diff/Engine|Directory||N|NULL|NULL|NULL|NULL|NULL|755|N|N|N|NULL|NULL|NULL|NULL|NULL|NULL
+Y|/usr/share/wordpress/wp-includes/Text/Diff/Renderer|Directory||N|NULL|NULL|NULL|NULL|NULL|755|N|N|N|NULL|NULL|NULL|NULL|NULL|NULL
 </pre></code>
 
 Tested On:
