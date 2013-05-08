@@ -4,8 +4,6 @@ require './lib/filecompare.rb'
 
 os_select = Determineos.new
 os_decided = os_select.os.to_s
-filename = []
-udir_list = []
 pacl_array = []
 pdacl_array = []
 
