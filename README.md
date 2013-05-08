@@ -20,20 +20,15 @@ Active?|Element|Element Type|Description|File Presence|File ACL|File User Owners
 Y|/etc/wordpress/htaccess|File||Y|644|0|0|N|N|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL
 Y|/etc/wordpress/wp-config.php|File||Y|644|0|0|N|N|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL
 Y|/usr/share/doc/wordpress/changelog.Debian.gz|File||Y|644|0|0|N|N|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL
-Y|/usr/share/doc/wordpress/copyright|File||Y|644|0|0|N|N|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL
-Y|/usr/share/doc/wordpress/examples/apache.conf|File||Y|644|0|0|N|N|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL
-Y|/usr/share/doc/wordpress/examples/setup-mysql|File||Y|644|0|0|N|N|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL
 ...
-Y|/usr/share/wordpress/wp-admin/images/menu-arrow-frame.png|File||Y|644|0|0|N|N|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL
-Y|/usr/share/wordpress/wp-admin/images/menu-arrow-frame-rtl.png|File||Y|644|0|0|N|N|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL
-Y|/usr/share/wordpress/wp-admin/images/menu-arrows.gif|File||Y|644|0|0|N|N|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL
-Y|/usr/share/wordpress/wp-admin/images/menu-bits.gif|File||Y|644|0|0|N|N|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL
-Y|/usr/share/wordpress/wp-admin/images/menu-bits-rtl.gif|File||Y|644|0|0|N|N|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL
+Y|/usr/share/wordpress/wp-admin/includes/user.php|File||Y|644|0|0|N|N|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL
+Y|/usr/share/wordpress/wp-admin/includes/widgets.php|File||Y|644|0|0|N|N|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL
+Y|/usr/share/wordpress/wp-admin/index-extra.php|File||Y|644|0|0|N|N|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL
 ...
-Y|/usr/share/wordpress/wp-includes/Text|Directory||N|NULL|NULL|NULL|NULL|NULL|755|N|N|N|NULL|NULL|NULL|NULL|NULL|NULL
-Y|/usr/share/wordpress/wp-includes/Text/Diff|Directory||N|NULL|NULL|NULL|NULL|NULL|755|N|N|N|NULL|NULL|NULL|NULL|NULL|NULL
-Y|/usr/share/wordpress/wp-includes/Text/Diff/Engine|Directory||N|NULL|NULL|NULL|NULL|NULL|755|N|N|N|NULL|NULL|NULL|NULL|NULL|NULL
-Y|/usr/share/wordpress/wp-includes/Text/Diff/Renderer|Directory||N|NULL|NULL|NULL|NULL|NULL|755|N|N|N|NULL|NULL|NULL|NULL|NULL|NULL
+Y|/usr/share/wordpress/wp-admin|Directory||N|NULL|NULL|NULL|N|N|755|0|0|N|NULL|NULL|NULL|NULL|NULL|NULL
+Y|/usr/share/wordpress/wp-admin/css|Directory||N|NULL|NULL|NULL|N|N|755|0|0|N|NULL|NULL|NULL|NULL|NULL|NULL
+Y|/usr/share/wordpress/wp-admin/images|Directory||N|NULL|NULL|NULL|N|N|755|0|0|N|NULL|NULL|NULL|NULL|NULL|NULL
+Y|/usr/share/wordpress/wp-admin/images/screenshots|Directory||N|NULL|NULL|NULL|N|N|755|0|0|N|NULL|NULL|NULL|NULL|NULL|NULL
 </pre></code>
 
 Tested On:
