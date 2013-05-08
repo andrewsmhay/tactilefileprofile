@@ -41,7 +41,7 @@ if os_decided == "nix"
 		pacl_pre = File.stat(pelement.chomp).mode.to_s(8)
 		pacl_array << pacl_pre.split(//)
 		pacl = "#{pacl_array.last[-3..-1].join}"
-		puts "#{pelement.chomp!}|File|Y|#{pacl}|#{pfuser}|#{pfgroup}|#{pfsuid}|#{pfsgid}|NULL|NULL|NULL|NULL|NULL|NULL|NULLNULL|NULL|NULL"
+		puts "#{pelement.chomp!}|File|Y|#{pacl}|#{pfuser}|#{pfgroup}|#{pfsuid}|#{pfsgid}|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL"
 	end
 	if (File.exist?(pelement.chomp) && File.directory?(pelement.chomp))
 		if File.stat(pelement.chomp).setuid?
