@@ -15,6 +15,7 @@ Where `<file1>` is the package manager output file and `<file2>` is the applicat
 
 e.g.
 <pre><code># ruby tfp wordpress.out wordpress.post
+# cat file.csv
 Active?|Element|Element Type|Description|File Presence|File ACL|File User Ownership|File Group Ownership|File setuid|File setgid|Directory ACL|Directory User Ownership|Directory Group Ownership|World-Writable Directories Have Sticky Bit Set|Process Presence|Process User Ownership|Process Group Ownership|Group Members|Network Service Accessibility|Network Service Processes|
 Y|/etc/wordpress/htaccess|File||Y|644|0|0|N|N|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL
 Y|/etc/wordpress/wp-config.php|File||Y|644|0|0|N|N|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL|NULL
