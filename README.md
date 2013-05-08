@@ -3,8 +3,8 @@
 The Tactile File Profiler (tfp) script is used to quickly analyze a file system to help identify file locations, permissions, and ownership.
 
 The script currently takes two inputs:
-1) A text file that has the file and directory structure of the application (easily generated using your package manager of choice), and
-2) A text file that performs a recursive find of the application's installation directory (to ensure you catch everything)
+- A text file that has the file and directory structure of the application (easily generated using your package manager of choice), and
+- A text file that performs a recursive find of the application's installation directory (to ensure you catch everything)
 
 The script outputs to STDOUT in pipe "|" delimited format, making it easy to pull into your spreadsheet program of choice.
 
