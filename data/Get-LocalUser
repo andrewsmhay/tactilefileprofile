@@ -1,0 +1,4 @@
+function Get-LocalUser {
+ $users = net user
+ $users[4..($users.count-3)] -split '\s+' | Where-Object { $_ }
+}
