@@ -1,0 +1,3 @@
+function Get-LocalGroups() {
+  net localgroup | ?{ $_ -match "^\*.*" } | %{ $_.SubString(1) };
+}
